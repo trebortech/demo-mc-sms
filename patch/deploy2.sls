@@ -4,5 +4,5 @@
 "New patch version":
   pkg.installed:
     - pkgs:
-      - nginx: 1.4.6-1ubuntu3.7
+      - vim: 2:7.4.052-1ubuntu3.1
 
