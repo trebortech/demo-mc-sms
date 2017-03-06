@@ -14,5 +14,5 @@
     - data:
         packages: 'vim, vim-common, vim-runtime'
         job: 'Deploy 1'
-    - watch:
+    - onchanges:
       - pkg: 'New patch version'
