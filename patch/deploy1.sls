@@ -1,8 +1,13 @@
 # deploy1
 
-'Update All':
-  pkg.uptodate:
-    - name: "Update My Packages"
+#'Update All':
+#  pkg.uptodate:
+#    - name: "Update My Packages"
+
+'Install COWSAY':
+  pkg.installed:
+    - name: cowsay
+
 
 'Send event to bus':
   event.send:
