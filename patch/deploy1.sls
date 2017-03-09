@@ -7,6 +7,9 @@
       - vim-runtime: 2:7.4.052-1ubuntu3
       - vim: 2:7.4.052-1ubuntu3
 
+'Update All':
+  pkg.uptodate:
+    - name: "Update My Packages"
 
 'Send event to bus':
   event.send:

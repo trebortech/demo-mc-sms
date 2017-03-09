@@ -1,4 +1,3 @@
-
 # deploy2
 
 'New patch version':
