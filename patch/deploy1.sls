@@ -16,4 +16,4 @@
         packages: 'vim, vim-common, vim-runtime'
         job: 'Deploy 1'
     - onchanges:
-      - pkg: 'Update All'
+      - pkg: 'Install COWSAY'
